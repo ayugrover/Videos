@@ -10,7 +10,7 @@ const VideoList = ({videos, onVideoSelect}) =>
     });
 
 return( 
-    <div className="ui segment" >
+    <div className="ui segment" style={{height: "100%"}}>
         <div className="ui relaxed divided list">
             {renderedList}
         </div>
